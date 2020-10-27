@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ConsumeUser
+server:
+  port: 9000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true #注册服务使用的ip方式
